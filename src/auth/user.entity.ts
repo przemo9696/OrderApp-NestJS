@@ -4,6 +4,7 @@ import * as bcrypt from 'bcrypt';
 @Entity()
 @Unique(['username'])
 export class User extends BaseEntity {
+
   @ObjectIdColumn()
   id: ObjectID;
 
